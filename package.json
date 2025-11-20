@@ -1,14 +1,14 @@
 {
-  "name": "frida-load",
+  "name": "plawnekjx-load",
   "version": "1.0.0",
   "authors": [
-    "Frida Developers"
+    "Plawnekjx Developers"
   ],
-  "description": "Load a Frida script comprised of one or more Node.js modules",
+  "description": "Load a Plawnekjx script comprised of one or more Node.js modules",
   "keywords": [
-    "frida"
+    "plawnekjx"
   ],
-  "homepage": "http://www.frida.re",
+  "homepage": "http://www.plawnekjx.re",
   "dependencies": {
     "babel-preset-es2015": "^6.0.15",
     "babelify": "^7.2.0",
@@ -17,7 +17,7 @@
     "mold-source-map": "^0.4.0"
   },
   "devDependencies": {
-    "frida": "^5.0.0",
+    "plawnekjx": "^5.0.0",
     "jshint": "^2.6.3",
     "mocha": "^2.2.0",
     "should": "^5.1.0"
@@ -29,9 +29,9 @@
   "license": "LGPL-2.0 WITH WxWindows-exception-3.1",
   "repository": {
     "type": "git",
-    "url": "http://github.com/frida/frida-load.git"
+    "url": "http://github.com/plawnekjx/plawnekjx-load.git"
   },
   "bugs": {
-    "url": "http://github.com/frida/frida-load/issues"
+    "url": "http://github.com/plawnekjx/plawnekjx-load/issues"
   }
 }

@@ -3,7 +3,7 @@
 /* global describe, before, after, afterEach, gc, it */
 
 var data = require('./data');
-var frida = require('frida');
+var plawnekjx = require('plawnekjx');
 var load = require('..');
 var should = require('should');
 var spawn = require('child_process').spawn;
@@ -16,7 +16,7 @@ describe('Load', function () {
     target = spawn(data.targetProgram, [], {
       stdio: 'inherit'
     });
-    return frida.attach(target.pid)
+    return plawnekjx.attach(target.pid)
     .then(function (s) {
       session = s;
     });

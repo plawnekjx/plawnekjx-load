@@ -1,20 +1,20 @@
-`frida-load` has been deprecated. You should use [frida-compile](https://github.com/frida/frida-compile).
+`plawnekjx-load` has been deprecated. You should use [plawnekjx-compile](https://github.com/plawnekjx/plawnekjx-compile).
 
 -----
 
-# frida-load
+# plawnekjx-load
 
-Load a Frida script comprised of one or more Node.js modules.
+Load a Plawnekjx script comprised of one or more Node.js modules.
 
 ## Example
 
 ```js
-var frida = require('frida');
-var load = require('frida-load');
+var plawnekjx = require('plawnekjx');
+var load = require('plawnekjx-load');
 
 load(require.resolve('./agent.js'))
 .then(function (source) {
-  frida.attach('Skype')
+  plawnekjx.attach('Skype')
   .then(function (session) {
     session.createScript(source)
     .then(...) // and so on
@@ -25,5 +25,5 @@ load(require.resolve('./agent.js'))
 ## Installation
 
 ```bash
-$ npm install frida-load
+$ npm install plawnekjx-load
 ```
